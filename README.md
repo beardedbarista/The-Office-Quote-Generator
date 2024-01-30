@@ -1,59 +1,61 @@
 # The-Office-Quote-Generator
-The Office Quote Generator
 
-The Office Quote Generator is a simple web application that generates random quotes from the TV show "The Office" upon user interaction.
-Table of Contents
+"The Office Quote Generator" is a simple web application that generates random quotes from the TV show "The Office" upon user interaction.
 
-    Introduction
-    Features
-    Getting Started
-    Usage
-    Contributing
-    License
+## Table of Contents
 
-Introduction
+- [Introduction](#introduction)
+- [Features](#features)
+- [Getting Started](#getting-started)
+- [Usage](#usage)
+- [Contributing](#contributing)
+- [License](#license)
+
+## Introduction
 
 "The Office Quote Generator" is a web application designed to provide users with random quotes from the popular TV show "The Office." Users can generate a new quote by clicking a button, and the application will display a random quote from the show.
-Features
 
-    Displays random quotes from "The Office" upon user interaction.
-    Simple and intuitive user interface.
-    Easy to integrate into existing web applications.
+## Features
 
-Getting Started
+- Displays random quotes from "The Office" upon user interaction.
+- Simple and intuitive user interface.
+- Easy to integrate into existing web applications.
+
+## Getting Started
 
 To get started with "The Office Quote Generator," follow these steps:
 
-    Clone the repository to your local machine:
+1. Clone the repository to your local machine:
 
-    bash
+    ```bash
+    git clone https://github.com/your-username/the-office-quote-generator.git
+    ```
 
-git clone https://github.com/your-username/the-office-quote-generator.git
+2. Navigate to the project directory:
 
-Navigate to the project directory:
-
-bash
-
+    ```bash
     cd the-office-quote-generator
+    ```
 
-    Open the index.html file in your web browser.
+3. Open the `index.html` file in your web browser.
 
-Usage
+## Usage
 
-    Open the web application in your browser.
-    Click the "Click Here" button to generate a random quote from "The Office."
-    Enjoy the random quote displayed on the page.
+1. Open the web application in your browser.
+2. Click the "Click Here" button to generate a random quote from "The Office."
+3. Enjoy the random quote displayed on the page.
 
-Contributing
+## Contributing
 
 Contributions are welcome! If you would like to contribute to "The Office Quote Generator," please follow these guidelines:
 
-    Fork the repository.
-    Create a new branch for your feature or bug fix.
-    Make your changes and commit them with descriptive commit messages.
-    Push your changes to your fork.
-    Submit a pull request to the main repository.
+1. Fork the repository.
+2. Create a new branch for your feature or bug fix.
+3. Make your changes and commit them with descriptive commit messages.
+4. Push your changes to your fork.
+5. Submit a pull request to the main repository.
 
-License
+## License
 
-"The Office Quote Generator" is licensed under the MIT License.
+"The Office Quote Generator" is licensed under the [MIT License](LICENSE).
+
