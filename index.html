@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link rel="stylesheet" href="quoteStyle.css">
+
+    <script type="module" src="Functions.mjs"></script>
+    <script type="module" src="ArrayQuotes.mjs"></script>
+    <title>The Office Quote Generator</title>
+    <style>
+        body {
+            text-align: center;
+            /* Center align the content within the body */
+        }
+
+        #quote-output-div {
+            margin: 20px;
+            /* Add some margin for better visibility */
+        }
+    </style>
+</head>
+
+<body>
+
+    <h1>Daily Quotes from The Office</h1>
+
+    <p>
+        Go ahead, try your luck and see what quote the universe has in store for you today! <br>
+        Just click the button below to generate a random quote from the TV show, The Office.
+    </p>
+
+    <!-- Button with onclick event -->
+    <button id="quote-button" class="button">Click Here</button>
+
+    <!-- Element to display quote -->
+    <div id="quote-output-div"></div>
+
+    <script type="module">
+        import { getRandomQuote, displayQuote } from './Functions.mjs';
+
+        // Get button
+        const button = document.getElementById('quote-button');
+
+        // Add click event listener
+        button.addEventListener('click', function () {
+            const randomQuote = getRandomQuote();
+            displayQuote(randomQuote);
+        });
+    </script>
+
+</body>
+
+</html>
+
+

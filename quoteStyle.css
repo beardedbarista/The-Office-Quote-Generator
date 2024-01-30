@@ -1,0 +1,174 @@
+
+:root {
+    --primary: #eeeff7;
+    --light: #F6F4F9;
+    --dark: #04000B;
+    background-image: url("./Images/theOfficeBackdround.jpg");
+}
+
+body {
+    text-align: center;
+    /* Center align the content within the body */
+}
+#quote-output-div {
+    margin: 20px;
+    display: block;
+    /* Add some margin for better visibility */
+}
+
+/*** Button ***/
+.button {
+    font-weight: 400;
+    transition: .5s;
+    color: rgb(249, 249, 253);
+    padding: 10px 20px;
+    border: ridge black;
+    border-radius: 2px;
+    cursor: pointer; 
+    text-align: center;
+    background-color: rgb(4, 4, 95);
+}
+
+
+.button:hover {
+    box-shadow: 0 0 10px rgba(0, 0, 0, .5);
+}
+ 
+/*** Heading ***/
+h1 {
+    font-weight: 725 !important;
+    font-size: 35px;
+    color: var(--primary);
+}
+
+p {:root {
+    --primary: #eeeff7;
+    --light: #F6F4F9;
+    --dark: #04000B;
+    background-image: url("./Images/theOfficeBackdround.jpg");
+}
+
+body {
+    text-align: center;
+    /* Center align the content within the body */
+}
+#quote-output-div {
+    margin: 20px;
+    /* Add some margin for better visibility */
+}
+
+/*** Button ***/
+.button {
+    font-weight: 400;
+    transition: .5s;
+    color: rgb(249, 249, 253);
+    padding: 10px 20px;
+    border: ridge black;
+    border-radius: 2px;
+    cursor: pointer; 
+    text-align: center;
+    background-color: rgb(4, 4, 95);
+}
+
+
+.button:hover {
+    box-shadow: 0 0 10px rgba(0, 0, 0, .5);
+}
+ 
+/*** Heading ***/
+h1 {
+    font-weight: 725 !important;
+    font-size: 35px;
+    color: var(--primary);
+}
+
+p {
+    font-family: 'Jost', sans-serif;
+    font-size: 18px;
+    color: var(--dark);
+}
+#quote-output-div {
+    width: 375px;:root {
+        --primary: #eeeff7;
+        --light: #F6F4F9;
+        --dark: #04000B;
+        background-image: url("./Images/theOfficeBackdround.jpg");
+    }
+    
+    body {
+        text-align: center;
+        /* Center align the content within the body */
+    }
+    #quote-output-div {
+        margin: 20px;
+        /* Add some margin for better visibility */
+    }
+    
+    /*** Button ***/
+    .button {
+        font-weight: 400;
+        transition: .5s;
+        color: rgb(249, 249, 253);
+        padding: 10px 20px;
+        border: ridge black;
+        border-radius: 2px;
+        cursor: pointer; 
+        text-align: center;
+        background-color: rgb(4, 4, 95);
+    }
+    
+    
+    .button:hover {
+        box-shadow: 0 0 10px rgba(0, 0, 0, .5);
+    }
+     
+    /*** Heading ***/
+    h1 {
+        font-weight: 725 !important;
+        font-size: 40px;
+        color: var(--primary);
+    }
+    
+    p {
+        font-family: 'Jost', sans-serif;
+        font-size: 18px;
+        color: var(--dark);
+    }
+    #quote-output-div {
+        width: 375px;
+        height: auto;
+        margin: 22px auto;
+        padding: 10px;
+        border: 1px solid #ccc;
+        border-radius: 5px;
+        overflow: auto;
+        text-align: center;
+        word-wrap: break-word;
+        background-color: #f9f9f9;
+    }
+    height: auto;
+    margin: 22px auto;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    overflow: auto;
+    text-align: center;
+    word-wrap: break-word;
+    background-color: #f9f9f9;
+}
+    font-family: 'Jost', sans-serif;
+    font-size: 19px;
+    color: var(--dark);
+}
+#quote-output-div {
+    width: 375px;
+    height: auto;
+    margin: 22px auto;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    overflow: auto;
+    text-align: center;
+    word-wrap: break-word;
+    background-color: #f9f9f9;
+}
